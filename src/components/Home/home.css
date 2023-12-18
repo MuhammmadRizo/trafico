@@ -1,0 +1,68 @@
+.home__section {
+  max-width: 1734px;
+  height: 900px;
+  background: url("../../assets/bg.png"), center no-repeat;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+}
+
+header .logo {
+  margin: 0 290px 0 240px;
+}
+
+header .header__links {
+  display: flex;
+  align-items: center;
+}
+
+header .header__links ul {
+  display: flex;
+  list-style: none;
+  gap: 50px;
+}
+
+header .header__links ul a {
+  text-decoration: none;
+  color: #fff;
+  font-family: Rubik, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}
+
+header form {
+  margin-left: 50px;
+}
+
+header form button {
+  width: 158px;
+  height: 60px;
+  color: #fff;
+  text-align: center;
+  font-family: Rubik, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  border: none;
+  border-radius: 5px;
+  background: #ee4d47;
+}
+
+.body__section h1 {
+  width: 741px;
+  height: 300px;
+  text-align: start;
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  flex-shrink: 0;
+  color: #fff;
+  font-family: "DM Serif Display", sans-serif;
+  font-size: 100px;
+  font-weight: 400;
+  line-height: 100%; /* 100px */
+}
